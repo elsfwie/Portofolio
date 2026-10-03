@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElizabethFlo.Porto</title>
+
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-<nav class="navbar">
-    <div class="container">
-        <a href="#" class="branding">ElizabethFlo.</a>
+    <!-- Navbars -->
+     <!-- note: '#' masih kosong, tbc untuk konten2nya -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav_logo">ElizabethFlo.</a>
 
-        <div id="navMenu" class="nav_menu">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Home</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">About Me</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Projects</a>
-                </li>
-                <li class="nav_item nav_item_cta">
-                    <a href="#" class="nav_link nav_link_cta">Get in Touch</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-            </nav>
-        </div>
+            <div class="nav_links" id="navMenu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Skills</a>
+
+                <div class="nav_cta">
+                    <a href="#">Get in Touch</a>
+                </div>
+            </div>
+
+            <button type="button" class="nav_toggle" id="Toggle" aria-label="Buka menu" aria-controls="navMenu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
 </body>
 </html>
