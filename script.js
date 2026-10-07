@@ -10,10 +10,9 @@ function aturMenu(opened) {
         'aria-label',
         opened ? 'close' : 'open'
     );}
-
 toggle.addEventListener('click', function () {
     const opened = toggle.getAttribute('aria-expanded') === 'true';
-    aturMenu(!opened);
+    aturMenu(!opened); 
 });
 
     //tutup menu kalo ada yang di pilih
