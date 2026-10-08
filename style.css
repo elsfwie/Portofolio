@@ -11,7 +11,7 @@ body {
     background-image:
         linear-gradient(
             to right,
-            rgba(30, 28, 71, 0.04) 1.3px,
+            rgba(33, 29, 119, 0.04) 1.3px,
             transparent 1px
         ),
         linear-gradient(
@@ -102,14 +102,23 @@ header {
 
 .home_content {
     max-width: 1180px;
-    margin: 0 auto;
-    padding: 60px 24px;
+    min-height: 500px; 
+
     position: relative;
-    isolation: isolate;
+    isolation: isolate;   
+
+    margin: 120px auto 30px;
+    padding: 40px 32px;
+    border: 1px solid #eee;
+    border-radius: 16px;
+
+    background:  #fffffa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.152);
+    overflow: hidden;
 }
 
 .home_title {
-    margin: 150px 70px 20px;
+    margin: 90px 70px 20px;
     font-family: 'Playfair Display', serif;
     font-size: clamp(36px, 5.5vw, 72px);
     font-weight: 500;
@@ -117,7 +126,7 @@ header {
     color: #24215c;
     position: relative;
     isolation: isolate;
-    line-height: 0.1;
+    line-height: 0.65;
 }
 
 .home_highlight {
@@ -133,7 +142,7 @@ header {
     position: relative;
     width: 180px;
     height: 175px;
-    margin: 5px 10px;
+    margin: -7px 10px;
     vertical-align: middle;
     transform: translateY(-25px);
     z-index: -1;
@@ -188,8 +197,8 @@ header {
         135deg,
         rgba(120, 145, 180, 0.06) 0px,
         rgba(120, 145, 180, 0.06) 10px,
-        transparent 10px,
-        transparent 22px
+         10px,
+         22px
     );
 }
 
@@ -296,13 +305,13 @@ header {
     font-family: 'Outfit', serif;
     font-size: 25pt;
     font-weight: 700;
-    margin: 50px 0 -30px;
+    margin: 50px 0 3px;
     color: #24215c;
 }
 .about-me_container {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 80px 24px;
+    padding: 10px 24px 60px;
 }
 
 .content_about {
@@ -347,3 +356,59 @@ header {
         max-width: 240px;
     }
 }
+
+/* Section: SKILLS */
+.skills_container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 10px 24px 60px;
+    min-height: 50px;
+}
+
+.title_skills{
+    font-family: 'Outfit', serif;
+    font-size: 30pt;
+    font-weight: 700;
+    margin: 0px 0 50px;
+    text-align: center;
+    color: #24215c;
+}
+
+.skills_grids {
+    display: grid;
+    grid-template-columns: repeat(2, 350px); 
+    gap: 100px;
+    justify-content: center;
+}
+
+.card_skills {
+    background:  #fffffaa7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.152);
+    overflow: hidden;
+
+    color: #24215c;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 350px;   
+}
+
+.card_skills h3{
+    font-family: 'Outfit', serif;
+    font-size: 16pt;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.skills_list {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12pt;
+    text-align: left;
+    padding: 0 25px;
+    margin: 0;
+}
+

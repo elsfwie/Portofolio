@@ -18,9 +18,9 @@
             <div class="nav_links" id="navMenu">
                 <a href="#home">Home</a>
                 <a href="#about-me">About Me</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
 
                 <div class="nav_cta">
                     <a href="#">Get in Touch</a>
@@ -37,10 +37,10 @@
     <main>
         <section class="home_content" id="home">
         <h1 class="home_title">
-            Hello everyone, this is<span class="home_highlight"> Elizabeth's Portofolio Website</span>
+            Hey there! this is<span class="home_highlight"> Elizabeth's Portofolio Website</span>
 
             <span class="home_photo">
-                <img src="assets/DSC04676(3).JPG" alt="Elizabeth Florence">
+                <img src="assets/Profiles/DSC04676(3).JPG" alt="Elizabeth Florence">
                 <span class="home_wave" aria-hidden="true">👋</span>
             </span>
 
@@ -63,27 +63,113 @@
                  </p>
             </div>
             <div class="image_about">
-                <img src="assets/image.png" alt="photo_about-me">
+                <img src="assets/Profiles/image.png" alt="photo_about-me">
             </div>
         </div>
     </section>
 
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <h3>Technical Skills</h3>
-        <ul>
-            <li>Programming Languages: Python, Java, C++</li>
-            <li>Web Development: HTML, CSS, JavaScript</li>
-            <li>Operating Systems: Windows, Linux</li>
-            <li>Database Management: MySQL, MongoDB</li>
-        </ul>
-        <h3>Soft Skills</h3>
-        <ul>
-            <li>Problem Solving</li>
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Adaptability</li>
-        </ul>
+    <section id="skills" class="skills_container">
+        <h2 class = "title_skills">Skills</h2>
+        <div class = "skills_grids">
+          <div class = "card_skills">
+            <h3>Technical Skills</h3>
+            <ul class = skills_list>
+                <li>Programming Languages: Python, Java, C++</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Operating Systems: Windows, Linux</li>
+                <li>Database Management: MySQL, MongoDB</li>
+            </ul>
+        </div>
+        <div class = "card_skills">
+          <h3>Soft Skills</h3>
+          <ul class = skills_list>
+              <li>Problem Solving</li>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Adaptability</li>
+              <li>Public Speaking</li>
+              <li>Leadership</li>
+              <li>Organization & Leadership</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects-->
+  <section id="projects">
+    <h2 class="title_projects">PROJECTS</h2>
+    <div class="projects_grids">
+        <!-- Project 1 -->
+        <div class="card_project">
+          <img src="assets\projects\project_1.png" alt="Basic HTML Project">
+          <h3>Basic HTML</h3>
+
+          <p><strong>Tech:</strong> HTML </p>
+          <p>A basic HTML web page demonstrating fundamental structure, text formatting, lists, tables, hyperlinks, and embedded media elements.</p>
+          <a href="https://elsfwie.github.io/Basic-HTML-Project/" class="btn_link demo">Preview</a>
+          <a href="https://github.com/elsfwie/Basic-HTML-Project" class="btn_link">GitHub</a>
+        </div>  
+
+        <!-- Project 2 -->
+        <div class="card_project">
+          <img src="assets\projects\project_2.png" alt="Flex & Grid Project">
+          <h3>Flex & Grid Mondrian</h3>
+          <p><strong>Tech:</strong> HTML</p>
+          <p>A simple interactive web app that implements flex & gridlines concept into dimensions display, which also called as Mondrian Project.</p>
+          <a href="https://elsfwie.github.io/Flex-Grid-Project/" class="btn_link demo">Preview</a>
+          <a href="https://github.com/elsfwie/Flex-Grid-Project" class="btn_link">GitHub</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card_project">
+          <img src="assets\projects\project_3.png" alt="Page Size Adjustment Project">
+          <h3>Page Size Adjustment</h3>
+          <p><strong>Tech:</strong>HTML & CSS</p>
+          <p>A web...</p>
+          <a href="#" class="btn_link demo">Demo</a>
+          <a href="https://elsfwie.github.io/Page-Size-Adjustment-Project/" class="btn_link demo">Preview</a>
+          <a href="https://github.com/elsfwie/Page-Size-Adjustment-Project" class="btn_link">GitHub</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card_project">
+          <img src="assets\projects\project_4.png" alt="Page Size Adjustment Project">
+          <h3>Project Menyusul</h3>
+          <p><strong>Tech:</strong>HTML & CSS</p>
+          <p>link/demo menyusul</p>
+          <a href="https://elsfwie.github.io/MagicBox" class="btn_link demo">Preview</a>
+          <a href="https://github.com/elsfwie/MagicBox" class="btn_link">GitHub</a>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+      <div class="contact-container">
+        <div class="contact-card">
+          <h1>Get in Touch 💌</h1>
+          <p class="contact-message">
+            I'd love to connect — whether it's for internship opportunities, project collaborations,
+            or just a friendly hello. My inbox is always open!
+          </p>
+          <a href="mailto:elizabethflorence996@gmail.com" class="contact-email-btn">
+            📧 elizabethflorence996@gmail.com
+          </a>
+          <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/elizabeth-florence-wijaya-b6a172325/" target="_blank" title="LinkedIn">
+              <img src="images/icons/icons8-linkedin-48.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/elsfwie" target="_blank" title="GitHub">
+              <img src="images/icons/icons8-github-48.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/lizaa925._" target="_blank" title="Instagram">
+              <img src="images/icons/icons8-instagram-48.png" alt="Instagram">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     
 </body>
 </html>

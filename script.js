@@ -9,7 +9,7 @@ function aturMenu(opened) {
     toggle.setAttribute(
         'aria-label',
         opened ? 'close' : 'open'
-    );}
+    );} 
 toggle.addEventListener('click', function () {
     const opened = toggle.getAttribute('aria-expanded') === 'true';
     aturMenu(!opened); 
