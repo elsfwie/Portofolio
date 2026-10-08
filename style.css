@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: #fffffa;
@@ -432,6 +436,7 @@ header {
 }
 
 /* Section: PROJECT */
+/* Section: PROJECT */
 .title_projects{
     font-family: 'Outfit', serif;
     font-size: 30pt;
@@ -580,6 +585,7 @@ header {
 }
 
 .title_education {
+    margin: 50px 0 60px;
     margin: 50px 0 60px;
     font-size: 32px;
     color: #24215c;
