@@ -529,3 +529,50 @@ header {
     color: #fff;
 }
 
+.edu_container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 60px 24px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.title_education {
+    margin: 50px 0 40px;
+    font-size: 32px;
+    color: #24215c;
+}
+
+.edu_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+}
+
+.edu_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.edu_year {
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #394184;
+}
+
+.edu_detail h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #24215c;
+}
+
+.edu_detail p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+
