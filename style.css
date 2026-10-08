@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: #fffffa;
@@ -412,6 +416,7 @@ header {
     margin: 0;
 }
 
+/* Section: PROJECT */
 .title_projects{
     font-family: 'Outfit', serif;
     font-size: 30pt;
@@ -529,6 +534,7 @@ header {
     color: #fff;
 }
 
+/* Section: EDUCATION */
 .edu_container {
     max-width: 1180px;
     margin: 0 auto;
@@ -537,7 +543,7 @@ header {
 }
 
 .title_education {
-    margin: 50px 0 40px;
+    margin: 50px 0 60px;
     font-size: 32px;
     color: #24215c;
 }
@@ -575,4 +581,70 @@ header {
     color: #2c3e50;
 }
 
+/* Section: CONTACT */
+#contact {
+    background-color: #fffffa;
+    color: #1e1c47;
+    font-family: 'Outfit', sans-serif;
+    padding: 40px 24px;
+    border-top: 1px solid #9294c334;
+}
 
+.contact-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-container h2 {
+    margin: 0 0 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title_contact{
+    color: #394184;
+    margin: 0 0 10px;
+}
+
+.contact-message {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #394184;
+}
+
+.contact-message a {
+    color: inherit;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.contact-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+    border: 1px solid #0a0000;
+    border-radius: 50%;
+}
+
+.contact-icons img {
+    display: block;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.contact-icons a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}
